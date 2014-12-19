@@ -1,0 +1,9 @@
+dist/
+dist/*
+*.egg-info/
+*.egg-info/*
+*.pyc
+*~
+todo.txt
+.project
+.pydevproject
