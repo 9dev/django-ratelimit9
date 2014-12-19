@@ -13,9 +13,9 @@ setup(
     packages=['ratelimit9'],
     include_package_data=True,
     license='MIT License',
-    description='Another Django app', # @todo app description
+    description='App that dynamically adds reCAPTCHA field to forms when user exceeds the rate limit',
     long_description=README,
-    url='https://pypi.python.org/pypi/django-ratelimit9', # @todo change to github repo ?
+    url='https://github.com/9dev/django-ratelimit9',
     author='9dev',
     author_email='9devmail@gmail.com',
     classifiers=[
