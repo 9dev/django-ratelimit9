@@ -41,6 +41,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 
 	'debug_toolbar',
+    'captcha',
 	'ratelimit9',
 	'main',
 )
@@ -87,3 +88,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+
+RECAPTCHA_PUBLIC_KEY = '@todo'
+RECAPTCHA_PRIVATE_KEY = '@todo'
