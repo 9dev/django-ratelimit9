@@ -6,7 +6,6 @@ from main.forms import MyForm
 class MyView(Ratelimit9Mixin, FormView):
 	template_name = 'main/form.html'
 	form_class = MyForm
-	success_url = '/sent'
 	ratelimit_key = 'ip'
 	ratelimit_rate = '3/m'
 	
