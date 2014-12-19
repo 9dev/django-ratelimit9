@@ -31,5 +31,7 @@ setup(
     ],
 	install_requires = [
 		'django >= 1.6.5',
+        'django-ratelimit >= 0.5.0',
+        'django-recaptcha >= 1.0.2',
     ],
 )
