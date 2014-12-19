@@ -44,5 +44,5 @@ Code for your ``views.py``::
 	
 	class MyView(Ratelimit9Mixin, CreateView):
 		ratelimit_key = 'ip'
-	    ratelimit_rate = '5/m'
+		ratelimit_rate = '5/m'
 		# ...
