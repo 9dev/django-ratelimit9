@@ -1,4 +1,4 @@
-django==1.6.5
+django==2.2.24
 django-debug-toolbar
 
 django-ratelimit>=0.5.0
